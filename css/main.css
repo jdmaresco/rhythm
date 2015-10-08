@@ -5132,7 +5132,10 @@ strong {
 
 .team-who, .team-about {
   position: relative;
-  left: 10px; }
+  left: 0px; }
+
+.team-pic {
+  max-width: 120px; }
 
 .team-name {
   font-size: 20px;
