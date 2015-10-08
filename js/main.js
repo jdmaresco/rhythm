@@ -11,5 +11,9 @@ $(document).ready(function(){
 	        window.location.hash = target;
 	    });
 	});
+
+	$('#talk-button').on('click',function(e) {
+		e.preventDefault();
+		olark('api.box.expand');
+	});
 });
- 
