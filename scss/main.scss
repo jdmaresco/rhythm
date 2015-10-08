@@ -4,7 +4,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.navbar {
+.navbar {  
   background-color: white;
 }
 
@@ -110,17 +110,28 @@ strong {
     z-index: -1;
     border-top: 3px solid;
     border-color: #023f8d;
-}
+    @media (max-width: $screen-sm) {
+      display:none;
+    }
+  }
 
 .services-description {
   padding: 10px;
   padding-right: 30px;
   font-size: 14px;
-  font-weight: 100
+  font-weight: 100;
+  @media (max-width: $screen-sm) {
+    padding-bottom: 40px;
+  }
 }
 
 #team {
   border-top: 1px dotted #bbb;
+}
+
+.team-who, .team-about {
+  position: relative;
+  left: 10px;
 }
 .team-name {
   font-size: 20px;
@@ -128,7 +139,7 @@ strong {
 }
 .team-title {
   font-size: 16px;
-  font-weight: 100;
+  font-weight: 300;
 }
 .team-about {
   font-size: 16px;

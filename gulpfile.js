@@ -17,10 +17,14 @@ gulp.task('js', function() {
 
   gulp.src('./index.html')
     .pipe(
-      inject(bowerJSFiles),
+      inject(bowerJSFiles, {
+        addRootSlash: false
+      }),
       { name: 'bower' }
     )
-    .pipe(inject(jsFiles))
+    .pipe(inject(jsFiles, {
+      addRootSlash: false
+    }))
     .pipe(gulp.dest('.'));
 });
 
@@ -30,9 +34,11 @@ gulp.task('css', function() {
 
   gulp.src('./index.html')
     .pipe(inject(bowerCSSFiles),
-    {name:'bower'}
+    { name:'bower' }
   )
-  .pipe(inject(cssFiles))
+  .pipe(inject(cssFiles, {
+    addRootSlash: false
+  }))
   .pipe(gulp.dest('.'));
 });
 
