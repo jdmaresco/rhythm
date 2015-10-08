@@ -1,0 +1,136 @@
+@import "../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap";
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.navbar-header > button {
+  @media (max-width: $screen-sm) {
+    margin-top: 17px;
+  }
+}
+
+#primary-logo {
+  width: auto;
+  height: 45px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  @media (max-width: $screen-sm) {
+    margin-left: 14px;
+  }
+}
+
+#link-nav {
+  margin-top: 12px;
+  margin-bottom: 6px;
+  margin-right: 10px;
+  font-size: 18px;
+  font-weight: 300;
+  color: #023f8d;
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 400;
+}
+.strong-italic {
+  font-weight: 600;
+  font-style: italic;
+}
+
+.bold-black {
+  font-weight: 900;
+  font-style: italic;
+}
+
+.content-row {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#about {
+  padding-top: 160px;
+}
+
+.about-text-1 {
+  font-size: 24px;
+  font-weight: 100;
+}
+
+.about-text-2 {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.about-text-3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#about-image {
+  text-align: center;
+}
+
+#services {
+  border-top: 1px dotted #bbb;
+}
+
+.services-workflow {
+  position: relative;
+  z-index: 1;
+}
+
+.services-header {
+  font-size: 18px;
+  font-weight: 800;
+  border: 3px solid;
+  border-color: #023f8d;
+  min-height: 20px;
+  width: 80%;
+  margin-left: 14px;
+  padding: 7px;
+  -webkit-transform: skew(-5deg);
+     -moz-transform: skew(-5deg);
+       -o-transform: skew(-5deg);
+  background-color: white;
+}
+
+.services-connector {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    z-index: -1;
+    border-top: 3px solid;
+    border-color: #023f8d;
+}
+
+.services-description {
+  padding: 10px;
+  padding-right: 30px;
+  font-size: 14px;
+  font-weight: 100
+}
+
+#team {
+  border-top: 1px dotted #bbb;
+}
+.team-name {
+  font-size: 20px;
+  font-weight: 700;
+}
+.team-title {
+  font-size: 16px;
+  font-weight: 100;
+}
+.team-about {
+  font-size: 16px;
+  font-weight: 100;
+}
