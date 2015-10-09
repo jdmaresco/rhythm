@@ -5045,7 +5045,7 @@ body {
   margin-bottom: 6px;
   margin-right: 10px;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
   color: #023f8d;
   text-decoration: none; }
 
@@ -5064,32 +5064,46 @@ strong {
   padding-top: 80px;
   padding-bottom: 80px; }
 
-#about {
+.top-row {
+  padding-top: 80px; }
+
+.bottom-row {
+  padding-bottom: 80px; }
+
+#problems {
   padding-top: 160px; }
 
+.problem-stmt {
+  font-size: 30px;
+  font-family: 'Permanent Marker', cursive; }
+
 .about-text-1 {
-  font-size: 24px;
-  font-weight: 100; }
+  font-size: 16px;
+  font-weight: 400; }
 
 .about-text-2 {
-  font-size: 16px;
-  font-weight: 100; }
-
-.about-text-3 {
   font-size: 24px;
   font-weight: 700; }
 
 #about-image {
   text-align: center; }
 
-#services {
+.cta {
+  padding-top: 20px;
+  text-align: center; }
+
+.cta-button {
+  width: 40%; }
+
+#services, #team, #about {
   border-top: 1px dotted #bbb; }
 
 .services-workflow {
   position: relative;
   z-index: 1; }
 
-.services-header {
+.services-header, .challenges-header {
+  background-color: white;
   font-size: 18px;
   font-weight: 800;
   border: 3px solid;
@@ -5098,10 +5112,15 @@ strong {
   width: 80%;
   margin-left: 14px;
   padding: 7px;
+  text-align: center; }
+
+.services-header {
   -webkit-transform: skew(-5deg);
   -moz-transform: skew(-5deg);
-  -o-transform: skew(-5deg);
-  background-color: white; }
+  -o-transform: skew(-5deg); }
+
+#challenges-header {
+  position: relative; }
 
 .services-connector {
   content: "";
@@ -5122,13 +5141,10 @@ strong {
   padding: 10px;
   padding-right: 30px;
   font-size: 14px;
-  font-weight: 100; }
+  font-weight: 400; }
   @media (max-width: 768px) {
     .services-description {
       padding-bottom: 40px; } }
-
-#team {
-  border-top: 1px dotted #bbb; }
 
 .team-who, .team-about {
   position: relative;
@@ -5143,8 +5159,8 @@ strong {
 
 .team-title {
   font-size: 16px;
-  font-weight: 300; }
+  font-weight: 400; }
 
 .team-about {
   font-size: 16px;
-  font-weight: 100; }
+  font-weight: 400; }
