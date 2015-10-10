@@ -5065,17 +5065,44 @@ strong {
   padding-bottom: 80px; }
 
 .top-row {
-  padding-top: 80px; }
+  padding-top: 90px; }
 
 .bottom-row {
-  padding-bottom: 80px; }
+  padding-bottom: 90px; }
 
 #problems {
   padding-top: 160px; }
 
+.problem-subhead {
+  font-size: 26px;
+  font-weight: 700; }
+
 .problem-stmt {
   font-size: 30px;
-  font-family: 'Permanent Marker', cursive; }
+  font-family: 'Permanent Marker', cursive;
+  color: #aaa; }
+
+#challenges-examples {
+  padding-top: 20px;
+  text-align: center;
+  position: relative; }
+
+#let-us-talk {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 0px;
+  margin-bottom: -8px; }
+  #let-us-talk > span {
+    color: #bbbbbb;
+    bottom: 0px;
+    left: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: white; }
+
+.let-us-talk-link {
+  color: #bbbbbb; }
 
 .about-text-1 {
   font-size: 16px;
@@ -5118,6 +5145,10 @@ strong {
   -webkit-transform: skew(-5deg);
   -moz-transform: skew(-5deg);
   -o-transform: skew(-5deg); }
+
+.cols-centered {
+  float: none;
+  margin: 0 auto; }
 
 #challenges-header {
   position: relative; }
