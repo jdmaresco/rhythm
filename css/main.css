@@ -5121,6 +5121,9 @@ strong {
     top: -3px;
     font-size: 14px; }
 
+#about {
+  background-color: rgba(255, 255, 255, 0.7); }
+
 .about-text-1 {
   font-size: 16px;
   font-weight: 400; }
@@ -5128,9 +5131,6 @@ strong {
 .about-text-2 {
   font-size: 24px;
   font-weight: 700; }
-
-#about-image {
-  text-align: center; }
 
 .cta {
   padding-top: 20px;
