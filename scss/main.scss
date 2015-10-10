@@ -1,7 +1,7 @@
 $brand-primary:  #023f8d !default;
 $navbar-default-link-color:  lighten(#023f8d, 10%) !default;
 
-
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css");
 @import "../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap";
 
 body {
@@ -52,11 +52,18 @@ strong {
 }
 
 .content-row {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  position: relative;
 }
-.top-row { padding-top: 90px; }
-.bottom-row { padding-bottom: 90px; }
+.top-row {
+  padding-top: 90px;
+  position: relative;
+}
+.bottom-row {
+  padding-bottom: 90px;
+  position: relative;
+}
 
 #problems {
   padding-top: 160px;
@@ -67,36 +74,52 @@ strong {
   font-weight: 700;
 }
 
+#challenges-examples {
+  padding-top: 20px;
+  text-align: center;
+}
+
 .problem-stmt {
   font-size: 30px;
   font-family: 'Permanent Marker', cursive;
   color: #aaa;
 }
 
-#challenges-examples {
-  padding-top: 20px;
-  text-align: center;
-  position: relative
-}
-
-#let-us-talk {
+.line-overlay {
   position: absolute;
   text-align: center;
   width: 100%;
   bottom: 0px;
-  margin-bottom: -8px;
-  >span {
+  margin-bottom: -26px;
+  z-index: 100;
+  >.line-overlay-box {
     color: #bbbbbb;
-    bottom: 0px;
-    left: 0px;
-    padding-left: 30px;
-    padding-right: 30px;
-    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+    display: inline-block;
+    background-color: rgba(255,255,255,0.9);
   }
 }
 
-.let-us-talk-link {
-  color: #bbbbbb
+.line-overlay-link {
+  color: #aaaaaa;
+  font-size: 18px;
+  font-weight: 300;
+  background-color: white;
+  &:hover {
+    text-decoration: none;
+    color: #777777;
+  }
+  >.line-overlay-text {
+    position: relative;
+    top: 3px;
+  }
+  >.line-overlay-caret {
+    position: relative;
+    top: -3px;
+    font-size: 14px;
+  }
 }
 
 .about-text-1 {
