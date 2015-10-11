@@ -17,5 +17,8 @@ $(document).ready(function(){
 		olark('api.box.expand');
 	});
 
-	$('#about').parallax({imageSrc: './img/about-parallax.png'});
+	$('#about').parallax({
+		imageSrc: './img/about-parallax.png',
+		speed: 0.4
+	});
 });
