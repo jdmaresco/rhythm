@@ -5199,7 +5199,8 @@ strong {
   left: 0px; }
 
 .team-pic {
-  max-width: 120px; }
+  max-width: 150px;
+  height: auto; }
 
 .team-name {
   font-size: 20px;
