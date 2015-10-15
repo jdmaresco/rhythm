@@ -30,18 +30,17 @@ gulp.task('js', function() {
 
 gulp.task('css', function() {
   var cssFiles = gulp.src('./css/*.css');
-  var bowerCSSFiles = gulp.src(bowerFiles('.css'), { read: false });
+  //var bowerCSSFiles = gulp.src(bowerFiles('.css'), { read: false });
 
   gulp.src('./index.html')
-    .pipe(inject(bowerCSSFiles),
-    { name:'bower' }
-  )
+    //.pipe(inject(bowerCSSFiles),
+    //{ name:'bower' }
+  //)
   .pipe(inject(cssFiles, {
     addRootSlash: false
   }))
   .pipe(gulp.dest('.'));
 });
-
 gulp.task('sass', function() { 
   return gulp.src(config.sassDir + '/*.scss')
   .pipe(sass() 

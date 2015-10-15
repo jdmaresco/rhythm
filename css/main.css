@@ -5061,25 +5061,32 @@ strong {
   font-weight: 900;
   font-style: italic; }
 
-.content-row {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  position: relative; }
-
-.top-row {
+.top-row, .content-row {
   padding-top: 90px;
   position: relative; }
+  @media (max-width: 767px) {
+    .top-row, .content-row {
+      padding-top: 40px; } }
 
-.bottom-row {
+.bottom-row, .content-row {
   padding-bottom: 90px;
   position: relative; }
+  @media (max-width: 767px) {
+    .bottom-row, .content-row {
+      padding-bottom: 40px; } }
 
 #problems {
   padding-top: 160px; }
+  @media (max-width: 767px) {
+    #problems {
+      padding-top: 110px; } }
 
 .problem-subhead {
-  font-size: 26px;
+  font-size: 44px;
   font-weight: 700; }
+  @media (max-width: 767px) {
+    .problem-subhead {
+      font-size: 20px; } }
 
 #challenges-examples {
   padding-top: 20px;
@@ -5089,6 +5096,9 @@ strong {
   font-size: 30px;
   font-family: 'Permanent Marker', cursive;
   color: #aaa; }
+  @media (max-width: 767px) {
+    .problem-stmt {
+      font-size: 20px; } }
 
 .line-overlay {
   position: absolute;
@@ -5142,6 +5152,10 @@ strong {
 #services, #team, #about {
   border-top: 1px dotted #bbb; }
 
+@media (max-width: 768px) {
+  .service:not(:last-child) {
+    padding-bottom: 40px; } }
+
 .services-workflow {
   position: relative;
   z-index: 1; }
@@ -5153,8 +5167,6 @@ strong {
   border: 3px solid;
   border-color: #023f8d;
   min-height: 20px;
-  width: 80%;
-  margin-left: 14px;
   padding: 7px;
   text-align: center; }
 
@@ -5186,20 +5198,16 @@ strong {
       display: none; } }
 
 .services-description {
-  padding: 10px;
-  padding-right: 30px;
+  padding: 12px 2px 2px 2px;
   font-size: 14px;
   font-weight: 400; }
-  @media (max-width: 768px) {
-    .services-description {
-      padding-bottom: 40px; } }
 
 .team-who, .team-about {
   position: relative;
   left: 0px; }
 
 .team-pic {
-  max-width: 150px;
+  width: 100%;
   height: auto; }
 
 .team-name {
@@ -5207,9 +5215,9 @@ strong {
   font-weight: 700; }
 
 .team-title {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400; }
 
 .team-about {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400; }
