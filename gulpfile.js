@@ -41,6 +41,7 @@ gulp.task('css', function() {
   }))
   .pipe(gulp.dest('.'));
 });
+
 gulp.task('sass', function() { 
   return gulp.src(config.sassDir + '/*.scss')
   .pipe(sass() 

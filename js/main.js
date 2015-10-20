@@ -18,7 +18,7 @@ $(document).ready(function(){
 	});
 
 	$('#about').parallax({
-		imageSrc: './img/about-parallax.png',
-		speed: 0.4
+		imageSrc: './img/birds-bg-2400.jpg',
+		speed: 0.1
 	});
 });

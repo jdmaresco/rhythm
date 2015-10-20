@@ -71,14 +71,14 @@ strong {
   @extend .bottom-row;
 }
 
-#problems {
+#challenges {
   padding-top: 160px;
   @media (max-width: $screen-xs-max) {
     padding-top: 110px;
   }
 }
 
-.problem-subhead {
+.challenge-subhead {
   font-size: 44px;
   font-weight: 700;
   @media (max-width: $screen-xs-max) {
@@ -91,7 +91,7 @@ strong {
   text-align: center;
 }
 
-.problem-stmt {
+.challenge-stmt {
   font-size: 30px;
   font-family: 'Permanent Marker', cursive;
   color: #aaa;
@@ -138,7 +138,7 @@ strong {
 }
 
 #about {
-  background-color: rgba(255,255,255,0.7);
+  background-color: rgba(255,255,255,0.3);
 
 }
 
@@ -181,18 +181,18 @@ strong {
   background-color: white;
   font-size: 18px;
   font-weight: 800;
-  border: 3px solid;
+  border: 2px solid;
   border-color: #023f8d;
   min-height: 20px;
-  padding: 7px;
+  padding: 4px;
   text-align: center;
 }
 
-.services-header {
-  -webkit-transform: skew(-5deg);
-     -moz-transform: skew(-5deg);
-       -o-transform: skew(-5deg);
-}
+// .services-header {
+//   -webkit-transform: skew(-5deg);
+//      -moz-transform: skew(-5deg);
+//        -o-transform: skew(-5deg);
+// }
 
 .cols-centered {
   float: none;
@@ -203,24 +203,24 @@ strong {
   position: relative;
 }
 
-.services-connector {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 100px;
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    z-index: -1;
-    border-top: 3px solid;
-    border-color: #023f8d;
-    @media (max-width: $screen-sm) {
-      display:none;
-    }
-  }
+// .services-connector {
+//     content: "";
+//     display: block;
+//     width: 100%;
+//     height: 100px;
+//     top: 50%;
+//     left: 50%;
+//     position: absolute;
+//     z-index: -1;
+//     border-top: 3px solid;
+//     border-color: #023f8d;
+//     @media (max-width: $screen-sm) {
+//       display:none;
+//     }
+//   }
 
 .services-description {
-  padding: 12px 2px 2px 2px;
+  padding: 10px 0px 2px 0px;
   font-size: 14px;
   font-weight: 400;
 }
