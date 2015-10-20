@@ -5077,7 +5077,7 @@ strong {
 
 #challenges {
   padding-top: 160px;
-  background-color: rgba(255, 255, 255, 0.8); }
+  background-color: rgba(255, 255, 255, 0.94); }
   @media (max-width: 767px) {
     #challenges {
       padding-top: 110px; } }
@@ -5096,8 +5096,9 @@ strong {
 .challenge-stmt {
   text-align: center;
   font-size: 30px;
-  font-family: 'Permanent Marker', cursive;
-  color: #aaa; }
+  font-family: 'Shadows Into Light', cursive;
+  font-weight: 500;
+  color: #999; }
   @media (max-width: 767px) {
     .challenge-stmt {
       font-size: 20px; } }
@@ -5196,7 +5197,7 @@ strong {
   left: 0px; }
 
 .team-pic {
-  width: 100%;
+  width: 80%;
   height: auto;
   border-radius: 10%;
   -webkit-border-radius: 10%;
