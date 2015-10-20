@@ -17,7 +17,12 @@ $(document).ready(function(){
 		olark('api.box.expand');
 	});
 
-	$('#about').parallax({
+	$('#challenges').parallax({
+		imageSrc: './img/roughwall.jpg',
+		speed: 0.1
+	});
+
+	$('#team').parallax({
 		imageSrc: './img/birds-bg-2400.jpg',
 		speed: 0.1
 	});

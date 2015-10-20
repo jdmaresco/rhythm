@@ -5076,7 +5076,8 @@ strong {
       padding-bottom: 40px; } }
 
 #challenges {
-  padding-top: 160px; }
+  padding-top: 160px;
+  background-color: rgba(255, 255, 255, 0.8); }
   @media (max-width: 767px) {
     #challenges {
       padding-top: 110px; } }
@@ -5093,6 +5094,7 @@ strong {
   text-align: center; }
 
 .challenge-stmt {
+  text-align: center;
   font-size: 30px;
   font-family: 'Permanent Marker', cursive;
   color: #aaa; }
@@ -5132,7 +5134,7 @@ strong {
     font-size: 14px; }
 
 #about {
-  background-color: rgba(255, 255, 255, 0.3); }
+  background-color: rgba(167, 184, 205, 0.6); }
 
 .about-text-1 {
   font-size: 16px;
@@ -5151,6 +5153,9 @@ strong {
 
 #services, #team, #about {
   border-top: 1px dotted #bbb; }
+
+#services {
+  background-color: rgba(255, 255, 255, 0.3); }
 
 @media (max-width: 768px) {
   .service:not(:last-child) {
@@ -5188,7 +5193,13 @@ strong {
 
 .team-pic {
   width: 100%;
-  height: auto; }
+  height: auto;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  box-shadow: 3px 3px 3px 0px #ccc;
+  -moz-box-shadow: 3px 3px 3px 0px #ccc;
+  -webkit-box-shadow: 3px 3px 3px 0px #ccc; }
 
 .team-name {
   font-size: 20px;
