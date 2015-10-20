@@ -231,6 +231,8 @@ strong {
 }
 
 #team {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
 }
 
 .team-who, .team-about {
@@ -240,13 +242,13 @@ strong {
 .team-pic {
   width: 100%;
   height: auto;
-  border-radius: 50%;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
+  border-radius: 10%;
+	-webkit-border-radius: 10%;
+	-moz-border-radius: 10%;
 
-  box-shadow:         3px 3px 3px 0px #ccc;
-  -moz-box-shadow:    3px 3px 3px 0px #ccc;
-  -webkit-box-shadow: 3px 3px 3px 0px #ccc;
+  box-shadow:         1px 1px 5px 0px #eee;
+  -moz-box-shadow:    1px 1px 5px 0px #eee;
+  -webkit-box-shadow: 1px 1px 5px 0px #eee;
 }
 .team-name {
   font-size: 20px;

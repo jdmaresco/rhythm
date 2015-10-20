@@ -22,8 +22,8 @@ $(document).ready(function(){
 		speed: 0.1
 	});
 
-	$('#team').parallax({
-		imageSrc: './img/birds-bg-2400.jpg',
-		speed: 0.1
-	});
+	// $('#team').parallax({
+	// 	imageSrc: './img/birds-bg-2400.jpg',
+	// 	speed: 0.1
+	// });
 });
