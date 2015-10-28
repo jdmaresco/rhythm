@@ -5145,12 +5145,24 @@ strong {
   font-size: 24px;
   font-weight: 700; }
 
-.cta {
-  padding-top: 20px;
-  text-align: center; }
-
 .cta-button {
   width: 40%; }
+
+#cta {
+  padding-top: 20px;
+  text-align: center;
+  display: block; }
+  @media (max-width: 768px) {
+    #cta {
+      display: none; } }
+
+#cta-mobile {
+  padding-top: 20px;
+  text-align: center;
+  display: none; }
+  @media (max-width: 768px) {
+    #cta-mobile {
+      display: block; } }
 
 #services, #team, #about {
   border-top: 1px dotted #bbb; }
